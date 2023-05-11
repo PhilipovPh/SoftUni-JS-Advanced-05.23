@@ -43,4 +43,4 @@ function daysInMonth(month, year) {
     }
 }
 
-daysInMonth(1, 2012);
+daysInMonth(2, 2013);

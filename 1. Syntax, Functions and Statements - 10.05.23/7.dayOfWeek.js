@@ -10,7 +10,7 @@ function dayOfWeek(day) {
         case 'Wednesday':
             console.log(3);
             break;
-        case 'Thurday':
+        case 'Thursday':
             console.log(4);
             break;
         case 'Friday':
@@ -22,9 +22,11 @@ function dayOfWeek(day) {
         case 'Sunday':
             console.log(7);
             break;
-        case 'Invalid':
+        default:
             console.log('error');
+            break;
     }
 }
 
-dayOfWeek('Monday')
+dayOfWeek('Mond')
+
