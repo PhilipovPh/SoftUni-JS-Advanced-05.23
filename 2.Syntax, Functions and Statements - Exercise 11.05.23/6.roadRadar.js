@@ -62,7 +62,6 @@ function roadRadar(speed, area) {
                     console.log(`The speed is ${difference} km/h faster than the allowed speed of ${speedLimit} - speeding`);
                 }
             }
-            break;
         }
 
             break;

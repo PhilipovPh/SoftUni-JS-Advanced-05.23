@@ -11,7 +11,13 @@ function sameNumbers(number) {
         }
 
     }
+    let sum = 0;
+    for (let i = 0; i < stringifiedNumb.length; i++) {
+        sum += Number(stringifiedNumb[i]);
+
+    }
     console.log(isTrue);
+    console.log(sum);
 }
 
-sameNumbers(22223222);
+sameNumbers(2222222);
