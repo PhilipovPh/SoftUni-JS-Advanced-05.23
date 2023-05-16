@@ -1,20 +1,4 @@
 function increasingArr(arr) {
-    let biggest = Number.MAX_SAFE_INTEGER;
-    const output = [];
-
-    for (let i = 0; i < arr.length; i++) {
-        const currentEl = arr[i];
-
-        if (currentEl >= biggest) {
-            output.push(currentEl);
-            biggest = currentEl;
-        }
-    }
-    return output;
-}
-
-
-function increasingArr(arr) {
     let biggest = -Infinity;
     const output = [];
 

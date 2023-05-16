@@ -1,15 +1,18 @@
 function addAndRemoveEl(arr) {
-    let result = 0;
+    let num = 1;
+    let result = [];
 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === 'add') {
-            result++;
-            console.log(result);
-        } else if (arr[i] ===) {
-            result++
+    arr.forEach(cmd => {
+        if (cmd === 'add') {
+            result.push(num);
+        } else {
+            result.pop();
         }
+        num += 1;
+    });
 
-    }
+    const output = result.length >= 1 ? result.join('\n') : 'Empty'
+    console.log(output);
 
 }
 
