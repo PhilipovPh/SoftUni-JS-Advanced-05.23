@@ -19,7 +19,7 @@ function storeCatalogue(input) {
         const element = dict[key];
         output = output.concat(key, element);
     }
-    
+
     return output.join('\n');
 
 }
