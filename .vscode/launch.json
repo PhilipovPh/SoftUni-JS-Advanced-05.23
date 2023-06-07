@@ -11,7 +11,7 @@
                 "--timeout",
                 "999999",
                 "--colors",
-                "${test}"
+                "${file}"
             ],
             "internalConsoleOptions": "openOnSessionStart",
             "name": "Mocha Tests",
@@ -29,7 +29,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${file}"
+            "program": "${workspaceFolder}\\11.Unit Testing and Error Handling Lab - 26.05.23\\4.sumOfNumbers.test.js"
         }
     ]
 }
